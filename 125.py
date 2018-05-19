@@ -22,6 +22,8 @@ class test(unittest.TestCase):
 
     def test4(self):
         self.assertEqual(is_palindrome("a"), True)
-        
+
+    def test5(self):
+        self.assertEqual(is_palindrome("aa"), True)
 if __name__ == '__main__':
     unittest.main()
